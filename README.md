@@ -1,35 +1,36 @@
 # Installing Python
 ## Windows Installation
 
-Here are the steps to install Python on Windows machine.
+Binaries of latest version of Python 3 (Python 3.5.1) are available on this download page
 
-Open a Web browser and go to https://www.python.org/downloads/.
+The following different installation options are available.
 
-Follow the link for the Windows installer python-XYZ.msi file where XYZ is the version you need to install.
-
-To use this installer python-XYZ.msi, the Windows system must support Microsoft Installer 2.0. Save the installer file to your local machine and then run it to find out if your machine supports MSI.
-
-Run the downloaded file. This brings up the Python install wizard, which is really easy to use. Just accept the default settings, wait until the install is finished, and you are done.
+Windows x86-64 embeddable zip file
+Windows x86-64 executable installer
+Windows x86-64 web-based installer
+Windows x86 embeddable zip file
+Windows x86 executable installer
+Windows x86 web-based installer
+Note − In order to install Python 3.5.1, minimum OS requirements are Windows 7 with SP1. For versions 3.0 to 3.4.x Windows XP is acceptable.
 
 ## Unix and Linux Installation
 
-Here are the simple steps to install Python on Unix/Linux machine.
+Different flavors of Linux use different package managers for installation of new packages.
 
-Open a Web browser and go to https://www.python.org/downloads/.
+On Ubuntu Linux, Python 3 is installed using the following command from the terminal.
 
-Follow the link to download zipped source code available for Unix/Linux.
+$sudo apt-get install python3-minimal
+Installation from source
 
-Download and extract files.
+Download Gzipped source tarball from Python's download URL − https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz
 
-Editing the Modules/Setup file if you want to customize some options.
-
-run ./configure script
-
-make
-
-make install
-
-This installs Python at standard location /usr/local/bin and its libraries at /usr/local/lib/pythonXX where XX is the version of Python.
+Extract the tarball
+tar xvfz Python-3.5.1.tgz
+Configure and Install:
+cd Python-3.5.1
+./configure --prefix = /opt/python3.5.1
+make  
+sudo make install
 
 # Machine Learning Tutorial
 
