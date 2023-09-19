@@ -1,41 +1,67 @@
-# Installing Python
-## Windows Installation
+# Machine Learning Tutorials
 
-Binaries of latest version of Python 3 (Python 3.5.1) are available on this download page
+Welcome to the Machine Learning Tutorials repository! This repository contains tutorials and code examples for various machine learning algorithms implemented in Python.
 
-The following different installation options are available.
+## Table of Contents
 
-Windows x86-64 embeddable zip file
-Windows x86-64 executable installer
-Windows x86-64 web-based installer
-Windows x86 embeddable zip file
-Windows x86 executable installer
-Windows x86 web-based installer
-Note − In order to install Python 3.5.1, minimum OS requirements are Windows 7 with SP1. For versions 3.0 to 3.4.x Windows XP is acceptable.
+1. [Introduction](#introduction)
+2. [Tutorials](#tutorials)
+3. [Folder Structure](#folder-structure)
+4. [Contributing](#contributing)
+5. [License](#license)
 
-## Unix and Linux Installation
+## Introduction
 
-Different flavors of Linux use different package managers for installation of new packages.
+This repository aims to provide tutorials and code examples for various machine learning algorithms. Each tutorial covers a specific machine learning algorithm, explaining its concepts, implementation in Python, and providing code examples.
 
-On Ubuntu Linux, Python 3 is installed using the following command from the terminal.
+## Tutorials
 
-$sudo apt-get install python3-minimal
-Installation from source
+Here are the tutorials available in this repository:
 
-Download Gzipped source tarball from Python's download URL − https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz
+- [Basic Python](basic_python/README.md) - Introduction to basic Python programming concepts.
 
-Extract the tarball
-tar xvfz Python-3.5.1.tgz
-Configure and Install:
-cd Python-3.5.1
-./configure --prefix = /opt/python3.5.1
-make  
-sudo make install
+- [Python Tutorial](python_tutorial/README.md) - In-depth tutorial covering essential Python concepts and features.
 
-# Machine Learning Tutorial
+- [CatBoost Tutorial](catboost.py) - Tutorial and code examples for using CatBoost, a gradient boosting library.
 
-## Follow this tutorial
-### https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/?#
+- [Decision Tree Tutorial](decision_tree.py) - Tutorial and code examples for implementing decision tree algorithms.
 
+- [Dimensionality Reduction Algorithms Tutorial](dimensionality_reduction_algorithms.py) - Tutorial and code examples for dimensionality reduction algorithms.
 
-Working on this for by passing Google robot checker 
+- [Gradient Boosting Machine Tutorial](gradient_boosting_machine.py) - Tutorial and code examples for implementing gradient boosting machine algorithms.
+
+- [K-Means Tutorial](k_means.py) - Tutorial and code examples for implementing the K-means clustering algorithm.
+
+- [K-Nearest Neighbors Tutorial](k_nearest_neighbors.py) - Tutorial and code examples for implementing the K-nearest neighbors algorithm.
+
+- [LightGBM Tutorial](light_gbm.py) - Tutorial and code examples for using LightGBM, a gradient boosting framework.
+
+- [Linear Regression Tutorial](linear_regression.py) - Tutorial and code examples for implementing linear regression.
+
+- [Logistic Regression Tutorial](logistic_regression.py) - Tutorial and code examples for implementing logistic regression.
+
+- [Naive Bayes Tutorial](naive_bayes.py) - Tutorial and code examples for implementing naive Bayes classification.
+
+- [Random Forest Tutorial](random_forest.py) - Tutorial and code examples for implementing random forest algorithms.
+
+- [Support Vector Machine Tutorial](support_vector_machine.py) - Tutorial and code examples for implementing support vector machine algorithms.
+
+- [XGBoost Tutorial](xg_boost.py) - Tutorial and code examples for using XGBoost, an efficient and scalable implementation of gradient boosting.
+
+## Folder Structure
+
+The repository follows a specific folder structure for organizing tutorials and code:
+
+- `basic_python/`: Basic Python tutorial and related files.
+
+- `python_tutorial/`: Python tutorial and related files.
+
+- Algorithm-specific Python files (e.g., `catboost.py`, `decision_tree.py`, etc.).
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this repository by adding new tutorials, improving existing ones, or fixing issues, please follow the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
